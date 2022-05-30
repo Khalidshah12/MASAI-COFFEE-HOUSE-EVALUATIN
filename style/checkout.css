@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;
+}
+
+#confirmh1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#form {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 30%;
+    margin: auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+#confirm {
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    background-color: rgb(4, 179, 4);
+    border-radius: 10px;
+}
+
+#confirm:hover {
+    color: white;
+}

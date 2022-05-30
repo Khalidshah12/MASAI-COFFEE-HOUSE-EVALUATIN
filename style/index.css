@@ -1,0 +1,83 @@
+* {
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: teal;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar>div {
+    margin-right: 30px;
+    margin-left: -25px;
+}
+
+#navbar>h2 {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#menuh1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: chocolate;
+    text-decoration: underline;
+}
+
+#menu {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 20px 40px;
+}
+
+#coffeebox {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#coffeebox>h4 {
+    padding-left: 15px;
+}
+
+#coffeebox>p {
+    padding-left: 15px;
+}
+
+#coffeebox>button {
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    font-size: 14px;
+    background-color: rgb(109, 240, 109);
+    border-color: rgb(109, 240, 109);
+    cursor: pointer;
+}
+
+#coffeebox>button:hover {
+    background-color: rgb(18, 189, 18);
+    border-color: rgb(18, 189, 18);
+    color: white;
+}
+
+
+#coffeeImage {
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
